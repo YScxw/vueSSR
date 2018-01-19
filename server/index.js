@@ -51,6 +51,6 @@ app.get('*', (req, res) => {
 
 
 const httpServer = require('http').createServer(app)
-// 监听8088端口
+// 监听8000端口
 httpServer.listen(8000);
 console.log('success listen port 8000')
